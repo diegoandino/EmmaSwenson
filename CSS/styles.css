@@ -13,7 +13,11 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem; 
-    background: rgba(0,0,0,0.6)!important; /*-- Override Bootstrap --*/
+    background: rgba(0,0,0,0)!important; /*-- Override Bootstrap --*/
+}
+
+#nav-btn-white {
+    color: white; /*-- Override Bootstrap SCSS Nav Button Color --*/
 }
 
 /*.navbar-brand {
@@ -24,14 +28,18 @@ body {
     padding-right: .7rem;
 }
 
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0)!important; 
+}
+
 .navbar-dark .navbar-nav .navbar-link {
-    color: white;
+    color: white !important;
     padding-top: .8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgb(120, 208, 243);
+    color: rgb(55, 90, 247)!important;
 }
 
 /*-- Landing Page --*/
@@ -68,4 +76,10 @@ body {
     border-radius: 10; 
     padding: .6rem 1.3rem; 
     font-size: 1.1rem;
+}
+
+/*-- Contact Font Awesome Buttons --*/
+
+.fa-instagram .fa-linkedin .fa-youtube {
+    padding: 0px 20px; 
 }
