@@ -47,6 +47,12 @@ body {
     
 }
 
+.selection img{
+    width: 30%;
+    border-radius: 5%;
+    height: auto;
+}
+
 .caption {
     width: 100%;
     max-width: 100%;
@@ -59,7 +65,6 @@ body {
 
 .caption h1 {
     font-size: 3.8rem;
-    
     letter-spacing: .3rem;
     text-shadow: .3rem .3rem .8rem black;
     padding-bottom: 1rem; 
@@ -78,8 +83,43 @@ body {
     font-size: 1.1rem;
 }
 
+/*-- About Section --*/
+.about-bg-img {
+    filter: blur(2px);
+}
+
+.profile img {
+   width: 100%; 
+   border-radius: 30%;
+}
+
+blockquote i {
+    color : rgb(238, 181, 24); 
+    margin : 0.5rem; 
+}
+
+.profile-hr {
+    border-top : .1rem solid rgb(88, 88, 88); 
+}
+
 /*-- Contact Font Awesome Buttons --*/
 
-.fa-instagram .fa-linkedin .fa-youtube {
-    padding: 0px 20px; 
+footer {
+    background-color: rgb(31, 31, 31);
+    color : white; 
+    padding : 2rem 0 2rem;
+    margin-top : 1rem;
+}
+
+footer a {
+    color : white;
+    margin : 1.5rem 1rem 0 0;
+}
+
+footer a:hover {
+    color: coral;
+}
+
+.email {
+    color: goldenrod;
 }
