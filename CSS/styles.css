@@ -135,6 +135,15 @@ blockquote i {
     height : 100%;
 }
 
+/*-- Videos Page --*/ 
+
+
+
+
+/*-- Shop Page --*/
+
+
+
 /*-- Contact Font Awesome Buttons --*/
 
 footer {
@@ -150,7 +159,7 @@ footer a {
 }
 
 footer a:hover {
-    color: coral;
+    color: rgb(255, 191, 72);
 }
 
 .email {

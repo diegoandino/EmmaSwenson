@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/fixed.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.0/default/snipcart.css" />
     <title>Emma Swenson</title>
 </head>
 
@@ -21,6 +22,28 @@
         <!--Nav Bar-->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="index.html">Emma Swenson</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" id="nav-btn-white" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" id="nav-btn-white" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" id="nav-btn-white" href="videos.html">Videos</a>
+                    </li>
+
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" id="nav-btn-white" href="#shop">Shop</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <!--End Nav Bar-->
 
@@ -29,49 +52,42 @@
         <div class="landing">
             <div class="home-wrap">
                 <div class="home-inner">
-                    <img src="images/home-bg1.jpg" alt="" class="home-img">
+                    <img src="images/shop-bg.jpg" alt="" class="shop-bg-img">
                 </div>
             </div>
         </div>
 
         <div class="caption text-center">
-            <h1>Dolor Sit Amet</h1>
-            <h3>Lorem Ipsum Norem Docum</h3>
-            <a class="btn btn-outline-light btn-lg" href="#videos">See My Work</a>
+            <h1>Shop</h1>
+            <h4>My products and crafts</h4>
         </div>
         <!--End Landing Page-->
     </div>
     <!--End Home Section-->
 
+    <!--About Section-->
+    <div id="about" class="">
+        <div class="row">
 
-    <!--Videos Section-->
-    <div id="videos" class="offset">
-        <div class="jumbotron bg-dark">
-            <div class="narrow">
-                <div class="col-12">
-                    <!--h3 tag was here-->
-                    <div class="heading-underline"></div>
-                </div>
-                <div class="row text-center">
-                    <div class="card-group col-md-12">
-                        <div class="card-img-top" style="width: 30rem">
-                            <a href="about.html">About<img src="images/videos.png" alt="" class="home-img"></a>
-                        </div>
-
-                        <div class="card-img-top" style="width: 30rem">
-                            <a href="videos.html">Work<img src="images/videos.png" alt="" class="home-img"></a>
-                        </div>
-
-                        <div class="card-img-top" style="width: 30rem">
-                            <a href="shop.html">Shop<img src="images/videos.png" alt="" class="home-img"></a>
-                        </div>
+            <div class="col-md-3 profile">
+                <div class="row">
+                    <div id="snipcart" data-api-key="NDFiNjE1YjAtMzRhZC00ZmQ5LWEwYzQtODhmM2VkY2MzM2QxNjM3MDc0NTI4OTc1MDI0NzQ5" hidden>
+                            <button class="snipcart-add-item"
+                            data-item-id="starry-night"
+                            data-item-price="79.99"
+                            data-item-url="/paintings/starry-night"
+                            data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                            data-item-image="/assets/images/starry-night.jpg"
+                            data-item-name="The Starry Night">
+                            Add to cart
+                          </button>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
-    <!--End Videos Section-->
-
+    <!--End About Section-->
 
     <!--Contact Section-->
     <div id="contact" class="offset">
@@ -102,24 +118,20 @@
     <!--End Contact Section-->
 
 
-
-    <!--E-commerce Section-->
-    <div id="shop" class="offset">
-
-    </div>
-    <!--End E-commerce Section-->
-
-
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    
+    <script src="https://cdn.snipcart.com/themes/v3.0.0/default/snipcart.js"></script>
 </body>
 
 </html>
