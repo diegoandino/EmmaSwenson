@@ -14,23 +14,49 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem; 
-    background: rgba(0,0,0,0)!important; /*-- Override Bootstrap --*/
+    background-color: #0a99c1!important; /*-- Override Bootstrap --*/
+    position: relative;
 }
+
+.navbar:after {
+    content  : "";
+    position : absolute;
+    z-index  : 1;
+    bottom   : 0;
+    left     : 0;
+    pointer-events   : none;
+    background-image : linear-gradient(to bottom, 
+                      rgba(255,255,255, 0), 
+                      rgb(255, 255, 255) 90%);
+    width    : 100%;
+    height   : 4em;
+    opacity  : 10%;
+  }
 
 #nav-btn-white {
     color: white; /*-- Override Bootstrap SCSS Nav Button Color --*/
 }
 
-/*.navbar-brand {
+
+.navbar-brand {
     height: 2rem; 
-}*/
+}
 
 .navbar-nav li {
     padding-right: .7rem;
 }
 
+.navbar-brand {
+    background-color: #0a99c1;
+}
+
+.navbar-nav {
+    background-color: #0a99c1;
+}
+
 .navbar-toggler {
     border-color: rgba(255, 255, 255, 0)!important; 
+    border-radius: 0%;  
 }
 
 .navbar-dark .navbar-nav .navbar-link {
