@@ -117,6 +117,10 @@ body {
     padding-bottom: 1.6rem; 
 }
 
+.caption h4 {
+    font-size: 2rem;  
+}
+
 .btn-lg {
     border-width: medium; 
     border-radius: 10; 
@@ -204,7 +208,7 @@ footer a:hover {
 
 
 /* GALAXY S5 */
-@media (min-width: 360px) {
+@media (min-width: 360px) and (max-height: 640px) {
     .card-img-top {
         transform: scale(0.7);
     }
@@ -225,17 +229,25 @@ footer a:hover {
         text-shadow: .2rem .2rem .5rem black;
         padding-bottom: 1.6rem; 
     }
+
+    .caption h4 {
+        font-size: 1.2rem; 
+    }
 }
 
 
 /* iPhone 6/7/8 */
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-height: 667px) {
     .card-img-top {
         transform: scale(0.7);
     }
 
     .card-group {
         margin-left: -85px;
+    }
+
+    .caption h4 {
+        font-size: 1.2rem; 
     }
 }
 
@@ -249,6 +261,10 @@ footer a:hover {
     .card-group {
         margin-left: -70px;
     }
+
+    .caption h4 {
+        font-size: 1.2rem; 
+    }
 }
 
 
@@ -260,6 +276,10 @@ footer a:hover {
 
     .card-group {
         margin-left: -65px;
+    }
+
+    .caption h4 {
+        font-size: 1.2rem; 
     }
 }
 
